@@ -17,7 +17,6 @@ find_package(OsqpEigen REQUIRED)
 
 # catkin_package 声明
 catkin_package(
-    INCLUDE_DIRS include
     CATKIN_DEPENDS roscpp visualization_msgs geometry_msgs
 )
 
@@ -25,7 +24,6 @@ catkin_package(
 include_directories(
     ${catkin_INCLUDE_DIRS}
     ${EIGEN3_INCLUDE_DIRS}
-    /usr/local/include/osqp
 )
 
 # 添加可执行文件和链接库

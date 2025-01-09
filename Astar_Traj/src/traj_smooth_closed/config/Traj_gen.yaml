@@ -1,0 +1,12 @@
+
+# boundary conditions 
+InitialVel:              [0.0, 0.0, 0.0]
+InitialAcc:              [0.0, 0.0, 0.0]
+TerminalVel:             [0.0, 0.0, 0.0]
+TerminalAcc:             [0.0, 0.0, 0.0]
+# speed and acceleration limits
+AllocationSpeed:         2.0
+AllocationAcc:           2.0
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+   
+    <include file="$(find astar_path_planner)/launch/astar_planner.launch" />
+    
+    <node pkg="traj_smooth_closed" type="Traj_gen" name="Traj_gen" output="screen">
+        <rosparam command="load" file="$(find traj_smooth_closed)/config/Traj_gen.yaml" />
+    </node>
+
+</launch>

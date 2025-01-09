@@ -1,5 +1,5 @@
-# trajectory-planning
-A ROS-based trajectory planning project using QP
+本次作业提交两种轨迹优化方法，astar_path_planner包采取
+
 轨迹优化部分需要使用OsqpEigen和Osqp，以下是安装代码
 #安装Qsqp
 
